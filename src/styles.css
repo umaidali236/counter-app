@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 2.2;
+    font-size: 0.875rem;
+    background-color: #c0cbda;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: #3F72AF;
+    box-shadow: 0 5px 15px #f6f7f8;
+}
+
+.menu a {
+    color: #faf8fb;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.menu a:hover {
+    color: #f69191;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+.nav-header {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1C1678;
+}
+
+.nav-h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #f9faf4;
+}
+
+i {
+    font-size: 3rem;
+    color: #f5f9fb;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.counter-div {
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    border: 1px solid #dccaca;
+    padding: 1rem;
+    background-color: #4973ad;
+    color: #edecf2;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgb(131, 178, 245);
+}
+
+.counter-div>* {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 6rem;
+}
+
+hr {
+    border-color: #a4c8f8;
+}
+
+.buttons button {
+    padding: 1rem;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px lightblue;
+}
+
+button.subtract {
+    background-color: #314154;
+}
+
+button.reset {
+    background-color: #314154;
+}
+
+button.add {
+    background-color: #314154;
+}
+
+.uphand-styles {
+    color: greenyellow;
+}
+
+.downhand-styles {
+    color: orangered;
+}
+
+@media (min-width: 800px) {
+    .nav-main {
+        max-width: 95%;
+        margin: 0 .2rem 0 .2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-header {
+        padding: 0;
+    }
+
+    .menu {
+        height: auto;
+        display: flex;
+    }
+
+    .menu a {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+
+    .menu a:hover {
+        padding: 0;
+        background: transparent;
+    }
+}
