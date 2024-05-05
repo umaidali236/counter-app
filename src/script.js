@@ -21,7 +21,7 @@ function setColor() {
     if (count.innerHTML > 0) {
         count.style.color = "greenyellow";
     } else if (count.innerHTML < 0) {
-        count.style.color = "orangered";
+        count.style.color = "#fe9f7d";
     } else {
         count.style.color = "#fff";
     }
