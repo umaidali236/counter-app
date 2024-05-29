@@ -2,7 +2,7 @@
 
 # HTML 
 ```markdown
-```html
+
 <!DOCTYPE html>
 ```
 - Specifies the document type and version of HTML being used.
