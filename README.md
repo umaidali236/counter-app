@@ -1,9 +1,8 @@
 # counter-app
 
+# HTML 
 ```markdown
-# HTML Notes
 
-## Document Type Declaration
 ```html
 <!DOCTYPE html>
 ```
