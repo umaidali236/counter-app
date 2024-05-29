@@ -90,3 +90,45 @@
 - Defines the structure and content of the document body, including navigation, counter section, and script inclusion for JavaScript functionality.
 
 These notes provide an overview of the structure and key elements of the HTML document.
+
+# This CSS document primarily focuses on styling various elements of a web page. Let's break down its components:
+
+1. **Font Imports**:
+   - Two fonts are imported from Google Fonts: Roboto (weights 400 and 700) and Montserrat (weight 900).
+
+2. **Global Styles**:
+   - `*` selector applies `box-sizing: border-box` to all elements, ensuring consistent box models.
+   - `body` styles set the default font family to 'Roboto', 'Montserrat', and sans-serif, along with resetting margin, padding, line-height, font-size, and background color.
+   - `ul` removes default list-style-type.
+   - `a` removes default text-decoration.
+   - `nav` styling includes a background color (#3F72AF) and a box-shadow effect.
+
+3. **Menu Styles**:
+   - `.menu a` styles menu links with specific colors, font-weight, font-size, letter-spacing, padding, and a transition effect.
+   - `:hover` effect changes the color and font-weight of menu links and increases the padding on the left.
+
+4. **Header Styles**:
+   - `.nav-header` sets up a flex container with specific alignment and padding.
+   - `h1` and `.nav-h1` define styles for header titles with different font sizes and colors.
+
+5. **Container Styles**:
+   - `.container` sets the maximum width, margins, padding, and alignment for the main content container.
+
+6. **Counter Styles**:
+   - `.counter-div` styles a container for displaying a counter with specific width, border, padding, background color, text color, text alignment, border-radius, and box-shadow.
+   - `.count` defines the font size for the counter number.
+
+7. **Button Styles**:
+   - `.buttons button` styles buttons with padding, margin, font size, color, font-weight, border, outline, border-radius, cursor, and box-shadow.
+   - Specific classes like `button.subtract`, `button.reset`, and `button.add` set different background colors for buttons.
+
+8. **Hand Styles**:
+   - `.uphand-styles` and `.downhand-styles` define specific colors for hand icons.
+
+9. **Media Queries**:
+   - Adjustments for screens wider than 800px:
+     - `.nav-main` adjusts its maximum width, margin, and display properties.
+     - `.nav-header` removes padding.
+     - `.menu` adjusts its height and display properties.
+     - `.menu a` adjusts padding and margin.
+     - `.menu a:hover` changes padding and background to transparent on hover.
