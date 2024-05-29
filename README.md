@@ -2,7 +2,6 @@
 
 # HTML 
 ```markdown
-
 ```html
 <!DOCTYPE html>
 ```
