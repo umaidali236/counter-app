@@ -37,10 +37,10 @@
         <div class="nav-main">
             <!-- Navigation header -->
             <div class="nav-header">
-                <h1 class="nav-h1">Counter App</h1>
                 <!-- Header title -->
-                <i class="fa-solid fa-stopwatch-20"></i>
+                <h1 class="nav-h1">Counter App</h1>
                 <!-- Icon for navigation -->
+                <i class="fa-solid fa-stopwatch-20"></i>
             </div>
             <!-- Menu links -->
             <ul class="menu">
