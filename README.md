@@ -91,7 +91,7 @@
 
 These notes provide an overview of the structure and key elements of the HTML document.
 
-# This CSS document primarily focuses on styling various elements of a web page. Let's break down its components:
+# CSS 
 
 1. **Font Imports**:
    - Two fonts are imported from Google Fonts: Roboto (weights 400 and 700) and Montserrat (weight 900).
@@ -132,3 +132,30 @@ These notes provide an overview of the structure and key elements of the HTML do
      - `.menu` adjusts its height and display properties.
      - `.menu a` adjusts padding and margin.
      - `.menu a:hover` changes padding and background to transparent on hover.
+
+# JavaScript
+
+This JavaScript code is designed to interact with a webpage where there's a counter displayed and buttons to manipulate its value. Let's break down its functionality:
+
+1. **Selecting Elements**:
+   - `const count = document.querySelector(".count");`: Selects the element with the class "count", which likely represents the counter display.
+   - `const buttons = document.querySelector(".buttons");`: Selects the element with the class "buttons", which likely represents the container for the buttons.
+
+2. **Event Listener**:
+   - `buttons.addEventListener("click", (e) => { ... });`: Listens for click events on the "buttons" container. When a click occurs, it executes the callback function.
+
+3. **Event Handling**:
+   - `console.log(e.target.classList);`: Logs the class list of the clicked element to the console.
+   - Conditional statements check which button was clicked based on its class:
+     - `if (e.target.classList.contains("add")) { ... }`: If the clicked element has the class "add", increment the counter value displayed.
+     - `if (e.target.classList.contains("subtract")) { ... }`: If the clicked element has the class "subtract", decrement the counter value displayed.
+     - `if (e.target.classList.contains("reset")) { ... }`: If the clicked element has the class "reset", reset the counter value displayed to zero.
+
+4. **Color Change**:
+   - `setColor()` function is called after each button click to update the color of the counter based on its value.
+   - Inside `setColor()`, the color of the counter text is changed based on its value:
+     - If the value is greater than 0, the color is set to "greenyellow".
+     - If the value is less than 0, the color is set to "#fe9f7d".
+     - If the value is 0, the color is set to "#fff" (white).
+
+Overall, this script creates an interactive counter where clicking on specific buttons increments, decrements, or resets the counter value, and the color of the counter text changes accordingly.
