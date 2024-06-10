@@ -1,4 +1,4 @@
-# counter-app 
+# counter-app  
 
 # HTML 
 ```markdown
