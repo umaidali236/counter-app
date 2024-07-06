@@ -1,4 +1,5 @@
 # counter-app   
+
 A simple counter app using html , css and javascript. 
 
 # HTML 
